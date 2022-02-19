@@ -1,0 +1,700 @@
+#a = int(input())
+#b = int(input())
+#print(a%10)
+#print(a//10%10)
+#print(a//100%100)
+#print(b%10)
+#print(b//10%10)
+#print(b//100%100)
+#print(a*(b%10))
+# print(a*(b//10%10))
+# print(a*(b//100%100))
+# print(a*b)
+# x1 = int(input())
+# x2 = int(input())
+# x2_1 = x2//10//10
+# x2_2 = x2//10%10
+# x2_3 = x2%10
+# x3 = x1*x2_3
+# x4 = x1*x2_2
+# x5 = x1*x2_1
+# x6  = x3 + x4*10 + x5*100
+# print(x3)
+# print(x4)
+# print(x5)
+#print(x6c)
+# 연산자
+# +
+# -
+# *
+# //
+# %
+# 비교연산자
+# == 반드시 같다
+# !=는 같지 않다
+# >= 또는 <=는 방향에 따라서 크거나 같다, 작거나 같다
+# count = 특정 글자가 몇게 있는지
+# a = 'hobby'
+# print(a.count('b'))
+# find = 특정 글자가 몇번째에 있는지
+# b = "python is the best choice"
+# print(b.find('b'))
+# index = 특정 글지가 몇번째 칸에 있는지
+# c = "Life is too short"
+# print(c.index('t'))
+# join = 글자 사이에 특정 글자를 넣음
+# print(",".join('abcd'))
+# upper = 소문자 를 대문자로 바꿈
+# d = "hi"
+# print(d.upper())
+# lower = 대문자를 소문자로 바꿈
+# e = "HI"
+# print(e.lower())
+# split = 글자들을 간격으로 나눈다
+# j = "Life is too short"
+# print(j.split())
+# split = 위와 같으며 특정글씨를 지운다
+# k = "a:b:c:d"
+# print(k.split(":"))
+# a = 'hobby'
+# b = int(input())
+# if a > b:
+#     print("a는 b보다 크다")
+# 비교연산자
+# == 반드시 같다
+# !=는 같지 않다
+# >= 또는 <=는 방향에 따라서 크거나 같다, 작거나 같다
+# and = 조건이 모두 참일 때 참이 된다
+# a = 6
+# b = 4
+# if a%2==0 and b%2==0
+#     print("a와 b는 짝수다")
+# or = 조건 중 하나만 참이면 참이 된다
+# not = 조건이 거짓이면 참이다
+# a = int(input())
+# b = int(input())
+# if (a + b >8):
+#     print("a와 b의 합은 8보다 크다")
+# pass = 아무고도 안나온다
+#elif = if 와 else 사이 에 들어가는 값
+# else문 = 조건이 만족하지 않은 것은 모두 else가 된다
+# if a>b:
+#     print("a와 b의 합은 8보다 크다")
+# else:
+#     print("a는 b보다 작거나 같다
+# 돈이 5000원 있으면 택시를 타고
+# A = int(input())
+# B = int(input())
+# if A<B:
+#     print("A는 B 보다 작다")
+# elif A>B:
+#     print("A는 B보다 크다")
+# elif A==B:
+#     print("A는 B와 같다")
+# 문제: 시험 성적
+# tast = int(input())
+# if 89<tast:
+#     print("A")
+# elif 79<tast:
+#     print("B")
+# elif 69<tast:
+#     print("C")
+# elif 59<tast:
+#     print("D")
+# elif 60>tast:
+#     print("F")
+# 문제: 윤년
+# a = int(input())
+# if (a%4==0 and a%100!=0) or a%400==0:
+#     print("1")
+# else:
+#     print("0")
+# 문제: 사분면 고르기
+# x = int(input())
+# y = int(input())
+# if 0<=x and 0<=y:
+#     print(1)
+# elif 0>=x and 0<=y:
+#     print(2)
+# elif 0<=x and 0>=y:
+#     print(3)
+# else:
+#     print(4)
+# 선생님 이 하신 방법
+# x = int(input())
+# y = int(input())
+# if x > 0:
+#     if y > 0:
+#         print(1)
+#     elif y < 0:
+#         print(4)
+# elif x < 0:
+#     if y > 0:
+#         print(2)
+#     elif y < 0:
+#         print(3)
+# 문제:알람 시계
+# H = int(input())
+# M = int(input())
+# if M =
+# 문제:계산기
+# a = int(input())
+# b = int(input())
+# c = input()
+# if c == "+":
+#     print(a+b)
+# elif c == "-":
+#     print(a-b)
+# elif c == "*":
+#     print(a*b)
+# elif c == "//":
+#     print(a//b)
+# elif c == "%":
+#     print(a%b)
+# else:
+#     print("error")
+# 문제:정각 판별하는 문제
+# a = input()
+# if a[3] == "0" and a[4] == "0":
+#     print("정각이 입니다")
+# else:
+#     print("정각이 아닙니다")
+# # 선생님 이 하신 방법
+# time = input()
+# if time[3] and time[4] == "0":
+#     print("정각입니다")
+# else:
+#     print("정각이 아닙니다")
+# 다른 방법1
+# time = input()
+# if time[-2] and time[-1] == "0":
+#     print("정각입니다")
+# else:
+#     print("정각이 아닙니다")
+# 다른 방법2
+# time = input()
+# if time[3:] == "00":
+#     print("정각입니다")
+# else:
+#     print("정각이 아닙니다")
+# while문 = 무한 루프
+# while문의 조건문이 True이므로 항상 참이 된다
+# 불 자료형
+# True = 참
+# false = 거짓
+# 예시
+# while True:
+#     print("Ctrl+C를 눌러야 while문을 빠져나갈 수 있습니다.")
+#     a = input("문자열을 입력하시오 : ")
+#     if a == "Ctrl+C":
+#         break
+# 예시2
+# treeHit = 0         # 초기값
+# while treeHit < 10:    # 조건
+#     treeHit = treeHit + 1     # 내부값 갱신
+#     treeHit += 1             # 내부값 갱신
+#     print("나무를 %d번 찍었습니다." %treeHit)
+#     if treeHit == 10:             # 세부적인 조건
+#         print("나무 넘어갑니다")
+# while - break문
+# while문을 빠져나가고 싶을 때 사용한다
+# coffee = 10
+# while True:
+#     money = int(input("돈을 넣어 주세요 : "))
+#     if money == 300:
+#          print("커피를 줍니다.")
+#          coffee -= 1
+#     elif money > 300:
+#        print("거스름돈 %d를 주고 커피를 줍니다." %(money-300))
+#        coffee -= 1
+#     else:
+#         print("돈을 다시 돌려주고 커피를 주지 않습니다.")
+#     print("남은 커피의 양은 %d개 입니다." %coffee)
+#     if coffee == 0:
+#         print("커피가 다 떨어졌습니다. 판매를 중지 합니다.")
+#         break
+# m = int(input("돈을 넣어줘 : "))
+# print(m)
+# while문 - continue
+# while문 에 continue 조건이 맞으면 while 부터 다시 시작
+# a = 0
+# while a < 10:
+#     a = a+1
+#     if a%2 == 0:
+#         continue
+#     print(a)
+# for문 = 일장한 횟수 만큼 동일한 내용을 실행
+# for 변수 in 리스트(또는 튜플,문자열):
+# test_list = ['one','two','three']
+# for i in test_list:
+#     print(i)
+# for = range
+# [0,1,2,3,4]
+# for i in range(738923598273589273894572057027345982475):
+#      print(i)
+# for i in range(2,5):
+#     print(i)
+# for i in range(6):
+#     print(i)
+# for i in range(2,5):
+#     print(i)
+# for i in range(1,11,2):
+#     print(i)
+# add = 0
+# for i in range(1,11):
+#     add = add+i
+#     print(add)
+# a = 0
+# while a < 10:
+#     a = a+1
+#     print(a)
+# while True:
+#     A = int(input())
+#     B = int(input())
+#     print(A + B)
+#     if A + B == 0:
+#          break
+# 선생님이 하신 거
+# A = 0
+# B = 0
+# while True:
+#     A = int(input())
+#     B = int(input())
+#     if A==0 and B==0:
+#         break
+#     print(A + B)
+# for문 사용한 문제
+# for i in range(1,11):
+#     print(i)
+# for i in range(3,101,3):
+#      print(i)
+# 선생님이 한 방법
+# for i in range(1,101):
+#     if i % 3 == 0:
+#         print(i)
+# 문제: A + B - 3
+# T = int(input())
+# for i in range(T):
+#     A = int(input())
+#     B = int(input())
+#     print(A + B)
+#     if T == 0:
+#         break
+# 문제: 별모양
+# Y = "*"
+# for i in range(5):
+#     print(Y)
+#     Y += "*"
+# Y = "*"
+# while True:
+#     print(Y)
+#     Y += "*"
+#     if Y == "******":
+#         break
+# for a in range(1,101):
+#     if ((a%10)==3 or (a%10)==6 or (a%10)==9): #일의 자리 수가 369일때
+#         if ((a//10)==3 or (a//10)==6 or (a//10)==9): #십의 자리 수가 369일 때
+#             print("**")
+#         else: #위의 조건 = 일의 자리수가 369일 때 이거는 만족하지만 십의 자리수가 369가 아님
+#             print("*")
+#     elif((a//10)==3 or (a//10)==6 or (a//10)==9): #십의 자리수가 369일 때만
+#         print("*")
+#     else: #위의 모든 조건들을 만족하지 않는 수 -> 그대로 숫자 출력
+#         print(a)
+# a = 0
+# while a < 100:
+#     a += 1
+#     if ((a%10)==3 or (a%10)==6 or (a%10)==9):
+#         if ((a//10)==3 or (a//10)==6 or (a//10)==9):
+#             print("**")
+#         else:
+#             print("*")
+#     elif((a//10)==3 or (a//10)==6 or (a//10)==9):
+#         print("*")
+#     else:
+#         print(a)
+# a = [1,2,3,4,5]
+# print(a[6])
+
+#리스트 인덱싱
+# a = [1,2,3]
+# print(a[0] + a[2])
+# print(a[-2])
+# a = [1,2,3,['a','b','c']]
+# print(a[3])
+# print(a[3][0])
+# print(a[-1][0])
+# a = [1,2,['a','b'['Life','is']]]
+# print(a[2][2][0])
+# print(a[2][2][1])
+#리스트 슬라이싱
+# a = [1,2,3,4,5]
+# # print(a[0:2])
+# b = a[:2]
+# print(b)
+# C = a[2:]
+# print(c)
+# a = [1,2,3,['a','b','c'],4,5]
+# print(a[2:5])
+# print(a[3][:2])
+
+
+# a = [1,2,3]
+# b = [4,5,6]
+# print(a + b)
+# print(a*3)
+# print(len(a))    #길이 가 몇 인지
+
+# a = [1,2,3]
+# print(a[2]+"hi") = 오류
+# print(ste(a[2])+"hi")  #문자열은 문자열끼리 계산 str() 이용!
+
+#리스트의 수정
+# a = [1,2,3]
+# print(a)
+# a[2] = 4
+# print(a)
+# a[1] = 5
+# print(a)
+# del a[1]
+# print(a)
+# del a[1:]
+# print(a)
+
+# b = []
+# a = int(input())
+# b.append(a)
+# print(b)
+# a = [1,2,3]
+# a.append(4)
+# print(a)
+#sort
+# a = [1,4,3,2]
+# print(a)
+# a.sort()
+# print(a)
+#reverse
+# a = ['a','c','b']
+# print(a)
+# a.reverse
+# print(a)
+
+# a = [1,4,3,2]
+# print(a)
+# a.sort(reverse=True)
+# print(a)
+# a.sort(reverse=False)
+# print(a)
+# a.sort()
+# print(a)
+
+# a = [1,2,3]
+# # a.index(0) -> 리스트 안에 없어서 에러
+# a.index(3)
+# print(a)
+
+# a = [1,2,3]
+# a.insert(0,4)
+# print(a)
+# a.insert(1,7)
+# print(a)
+
+# a = [1,2,3,1,2,3]
+# a.remove(3)
+# print(a)
+# a.remove(3)
+# print(a)
+
+# a = [1,2,3]
+# a.remove(2)
+# print(a)
+
+# a = [4,5,6]
+# a.pop(2)
+# print(a)
+# a.pop(0)
+# print(a)
+
+# a = [1,2,3,1]
+# print(a.count(1))
+# print(a.count(0))
+# print(a.count(2))
+
+# a = [1,2,3]
+# print(a)
+# a.extend([4,5])
+# print(a)
+
+# Movie = ['해리포터','좋은 놈 나쁜 놈 이상한 놈','범죄 도시']
+# print(Movie)
+# Movie.extend(['스파이더맨'])
+# print(Movie)
+# del Movie['스파이더맨']
+# print(Movie)
+
+# Data = [2,4,3,1,5,10,9]
+# Data.sort()
+# print(Data)
+# Data.sort(reverse=True)
+# print(Data)
+# Data.sort(reverse=False)
+# print(Data)
+
+# N = int(input())  #1
+# A = []              #2
+# for i in range(N):
+#     a = int(input())
+#     A.append(a)              #3 append! ->  리스트에 값을 넣어줄 때 사용
+# mx = A[0]                    # 임의 변수 리스트 젤 앞의 값을 넣어줌
+# mn = A[0]
+# for j in range(len(A)):      #리스트 길이만큼 반복문을 사용
+#     if A[j] > mx:
+#         mx = A[j]
+#     elif A[j] < mn:
+#         mn = A[j]
+#     print(mx)
+#     print(mn)
+#
+# n = int(input())
+# l = []
+# for i in range(n):
+#     a = int(input())
+#     l.append(a)
+# mx = max(l)  #최대값
+# mn = min(l)  #최소값
+# s = sum(l)   #합
+# print(mx)
+# print(mn)
+# print(s)
+
+# 문제 평균
+# N = int(input())                      #과목의 개수
+# A = []                                #리스트 원래 점수
+# for i in range(N):                    #다른 리스트 바뀐 점수
+#     a = int(input())                  #정답변수 0으로 초기화시켜놓음
+#     A.append(a)                       #a번 만큼 반복
+# M = max(A)                            #b값에 숫자를 입력하고
+# A = sum(A)                            #리스트에 b를 넣어줘
+# print(A/M*100/N)                      #기존 점수 중에서 최대값
+                                        #리스트의 길이만큼 반복 = 점수가 나와있는 과목의 개수
+                                        #점수를 높게 조작하는 수식
+                                        #조작된 점수를 L이라는 리스트에 넣어줘
+                                        #평균값을 anw라는 변수에 대입
+                                        #anw를 출력
+
+# 튜플
+# t1 = ()
+# t2 = (1,) #1개의 요소만을 가질 때는 요소 뒤에 , 를 붙어야 합니다!!
+# t3 = (1,2,3)
+# t4 = 1,2,3
+# t5 = ('a','b',('ab','cd'))
+
+# t1 = ('a','b','c')
+# print(t1)
+# t1 = ('b','d','C')
+# print(t1)
+
+# t1 = (1,2,'a','b')
+# print(t1)
+# print(type(t1))
+# # print(t1[0])
+# # print(t1[3])
+# # print(t1[1:])
+# a = list(t1)
+# print(a)
+# print(type(a))
+
+# t1 = (1,2,'a','b')
+# t2 = (3,4)
+# print(t1+t2)
+# print(t2*3)
+# print(len(t1))
+
+# Sport = {"김연아":"피겨스케이팅","류현진":"야구","손흥민":"축구"}
+# print(Sport)
+# print(type(Sport))
+
+# a = {1:'hi'}
+# a1 = {'a':[1,2,3]}
+# print(a)
+# print(a1)
+
+# 딕셔너리
+# a = {1:'a'}
+# print(a)
+# a[2] = 'b'                  #[]안에 값은 key, = 오른쪽 값은 value가 된다.
+# a['name']='son'
+# a[3] = [1,2,3]
+# print(a)
+# del a[1]  # or a['name']
+# print(a)
+# print(len(a))
+
+# grade = {'Son':7, 'kane':10}
+# print(grade['Son'])
+# print(grade['kane'])
+
+# a = {1:'a', 2:'b'}
+# print(a[1])
+# print(a[2])
+
+# a = {'a':1, 'b':2}
+# print(a['a'])
+# print(a['b'])
+
+# # 문제 OX 게임
+# R = int(input())
+# A = []
+# for i in range(R):
+#     a = input()
+#     A.append(a)
+
+# 111번
+# a = input()
+# print(a*2)
+
+# 112번
+# a = int(input())
+# print(a+10)
+
+# 113번
+# a = int(input())
+# if a % 2 == 0:
+#     print("짝수")
+# else:
+#     print("홀수")
+
+# 114번
+# a = int(input())
+# a += 20
+# if a > 255:
+#     print(255)
+# else:
+#     print(a)
+
+# 115번
+# a = int(input())
+# a -= 20
+# if a < 0:
+#     print(0)
+# elif a > 255:
+#     print(255)
+# else:
+#     print(a)
+
+# 116번
+# a = input()
+# b = input()
+# if b == 00:
+#     print("정각이 아닙니다")
+# else:
+#     print("정각 입니다")
+
+# time = input("현재시간:")
+# if time[-2:] == "00":
+#     print("정각입니다")
+# else:
+#     print("정각이 아닙니다")
+
+
+# 117
+# a = input("좋아하는 과일은?")
+# fruit = ["사과","포도","홍시"]
+# if a in fruit:
+#     print("정답이다")
+# else:
+#     print("오답이다")
+
+# 118
+# warn_investment = ["Microsoft", "Google", "Naver", "Kakao", "SAMSUNG", "LG"]
+# a = input()
+# if a in warn_investment:
+#     print("투자 경고 종목입니다")
+# else:
+#     print("투자 경고 종목이 아닙니다")
+
+# 119
+# a = input("제가좋아하는계절은:")
+# fruit = {"봄" : "딸기", "여름" : "토마토", "가을" : "사과"}
+# if a in fruit:
+#     print("정답입니다")
+# else:
+#     print("오답입니다")
+
+# 120
+# fruit = {"봄" : "딸기", "여름" : "토마토", "가을" : "사과"}
+# a = input("좋아하는 과일은?")
+# if a in fruit.values():
+#     print("정답입니다")
+# elif a in fruit:
+#     print("정답입니다")
+# else:
+#     print("오답입니다")
+
+# a = input()
+# if a.islower() == True:
+#     print(a.upper())
+# else:
+#     print(a.lower())
+
+# 선생님이 하신거
+# a = input()
+# if a.islower():
+#     print(a.upper())
+# else:
+#     print(a.lower())
+
+# score = input("score:")
+# if score > "81":
+#     print("grade is A")
+# elif score > "61":
+#     print("grade is B")
+# elif score > "41":
+#     print("grade is C")
+# elif score > "21":
+#     print("grade is D")
+# else:
+#     print("grade is E")
+
+# ER = {"달러":1167, "엔":1.096, "유로":1268, "위안":171}
+# a = input()
+# num, currecy = a.split()
+# print(float(num)* ER[currecy], "원")
+
+# number1 = int(input())
+# number2 = int(input())
+# number3 = int(input())
+# if number1 > number3 and number2:
+#     print(number1)
+# elif number2 > number3 and number1:
+#     print(number2)
+# else:
+#     print(number3)
+
+# number = input("휴대전화 번호 입력: ")
+# num = number.split("-")[0]
+# if num =="011":
+#     com = "SKT"
+# elif num == "016":
+#     com = "KT"
+# elif num == "019":
+#     com = "LGU"
+# else:
+#     com = "알수없음"
+# print("당신은 %s 사용자입니다."%(com))
+
+# a = input("우편번호: ")
+# if a == "01000" or "01100" or "01200":
+#     print("강북구")
+# elif a == "01300" or "01400" or "01500":
+#     print("도봉구")
+# elif a == "01600" or "01700" or "01800" or "01900":
+#     print("노원구")
+num = input("우편번호: ")
+num = num[:3]
+if num in ["010","011","012"]:
+    print("강복구")
+elif num in ["013","014","015"]:
+    print("도봉구")
+else:
+    print("노원구")
